@@ -23,7 +23,7 @@ Reply:
 """
 
     try:
-        model = genai.GenerativeModel("gemini-1.5-flash-latest")
+        model = genai.GenerativeModel("gemini-2.5-flash")
         response = model.generate_content(prompt)
         return response.text.strip()
     except Exception as e:
