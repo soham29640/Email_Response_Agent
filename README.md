@@ -16,7 +16,10 @@ A simple AI-powered email assistant that:
 ## 🛠️ Setup
 
 1. Fill `.env` with Gmail + OpenAI keys
-2. Run:
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+3. Run the app:
+```bash
 streamlit run app.py
